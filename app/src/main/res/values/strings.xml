@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Vasukam</string>
+    <string name="google_dev_api_key">AIzaSyDfZWJysjwkKSajsSRPmssKCXyA1WGcgBo</string>
+    <string name="login"><u>Log in</u></string>
+    <string name="forgetPassword"><u>Forget Password</u></string>
+    <string name="signup"><u>Sign up</u></string>
+    <string name="resend"><u>Resend OTP?</u></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="california_3_hours_ago">California . 3 hours ago</string>
+    <string name="profile_name">Jahid hasan</string>
+    <string name="advance_setting_tut">You can change this setting any time ⋮ menu located at the top of your post.</string>
+    <string name="turning_on_downloading_will_allow_other_user_to_download_your_content">Turning ON downloading will allow other user to download your content.</string>
+    <string name="allow_downloading">Allow downloading</string>
+    <string name="turning_off_commenting_will_not_allow_any_user_to_comment_on_your_post_as_the_function_will_be_disabled">Turning off commenting will not allow any user to comment on your post, as the function will be disabled.</string>
+    <string name="turn_off_commenting">Turn off commenting</string>
+    <string name="advanced_settings">Advanced settings</string>
+    <string name="done">Done</string>
+    <string name="add_location">Add location</string>
+</resources>

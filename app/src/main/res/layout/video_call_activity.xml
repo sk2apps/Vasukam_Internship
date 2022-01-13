@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F9C80">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/image"
+        android:src="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+    <TextView
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:id="@+id/video_username"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/video_username"
+        android:layout_centerHorizontal="true"
+        android:text="Calling..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/make_call"
+            android:visibility="gone"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_baseline_local_phone_50"
+            app:tint="#59FF00" />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_video"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_baseline_call_end_24"
+            app:tint="#FF0000"/>
+    </LinearLayout>
+</RelativeLayout>

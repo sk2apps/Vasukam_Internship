@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="colorPrimary">#7F25ED</color>
+    <color name="colorPrimaryDark">#1B6AEC</color>
+    <color name="colorAccent">#0FE3E3</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="mainText">#FF000000</color>
+    <color name="backGround">#FFFFFF</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkYellow">#FBA523</color>
+    <color name="lightYellow">#EEF600</color>
+    <color name="grey">#818181</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="darkOrange">#F0FB4902</color>
+    <color name="themeDarkRed">#FF1D38</color>
+    <color name="themeLightRed">#F2EC4458</color>
+    <color name="grey_tab">#686868</color>
+    <color name="indigo">#9594FD</color>
+    <color name="indigo2">#D49DFF</color>
+    <color name="yellow">#FFE665</color>
+    <color name="lime">#9DFF84</color>
+    <color name="brown">#FFA6F1</color>
+    <color name="blue">#0C2CDD</color>
+    <color name="lightOrange">#FF8383</color>
+    <color name="textBg">#FFFCF6</color>
+
+    <color name="green">#037007</color>
+    <color name="orange">#FF5722</color>
+    <color name="blue_dark">#03136E</color>
+
+
+</resources>

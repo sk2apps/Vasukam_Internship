@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "974263180873",
+    "firebase_url": "https://vasukam-proto-default-rtdb.firebaseio.com",
+    "project_id": "vasukam-proto",
+    "storage_bucket": "vasukam-proto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974263180873:android:124c9f430e15a2a75ee998",
+        "android_client_info": {
+          "package_name": "com.saggy.vasukaminternship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974263180873-0q4kldprfvmiq4p61k5562tj454lt724.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saggy.vasukaminternship",
+            "certificate_hash": "36135dbb91086d0fdfb770f21a49323055de12d5"
+          }
+        },
+        {
+          "client_id": "974263180873-50ed3brg01ji1jr7mv1k7fu9or6viass.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpAcr0GkUSQJjIRFvC2RMZKgxRJ54O9po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974263180873-50ed3brg01ji1jr7mv1k7fu9or6viass.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "974263180873-esqfkl92ul42435aitibjqc7j5uan5n3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.VasukamApp3"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

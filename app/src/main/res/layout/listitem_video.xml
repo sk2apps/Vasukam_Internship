@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="24dp"
+        android:background="@drawable/round_layout"
+        android:outlineProvider="background">
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/videoRoundImage"
+            android:src="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/videoRoundImage"
+            android:layout_marginStart="10dp"
+            android:text="esl_csgo"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/videoTitle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/videoRoundImage"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="Liquid vs NIP | ESL Pro League | LIVE"
+            android:layout_below="@+id/videoTitle"
+            android:id="@+id/videoDescription"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/videoRoundImage"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_marginTop="4dp"
+            android:text="Counter Striker Global Offensive"
+            android:layout_below="@+id/videoDescription"
+            android:id="@+id/videoTag"
+            card_view:ignore="SmallSp" />
+        <TextView
+            android:layout_width="59dp"
+            android:layout_height="18dp"
+            android:background="@drawable/dark_grey_rounded"
+            android:text="#English"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            android:textSize="10dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@id/videoRoundImage"
+            android:layout_below="@+id/videoTag"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/info_figma"
+            android:background="@color/transparent" />
+    </RelativeLayout>
+
+</LinearLayout>

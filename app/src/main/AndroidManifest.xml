@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saggy.vasukaminternship">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".BaseApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VasukamInternship">
+        <activity
+            android:name=".presentation.activity.Filter.FilterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.post.PostCommentReplyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.post.PostCommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.profile.ProfileEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.post.ImagePostReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.post.PostAdvanceSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.post.ImagePostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.post.PostAddLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.post.PostOnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.post.TextPostReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.post.TextPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.MainContainerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Video_Calling_Setup" />
+        <activity android:name=".Base_Activity" />
+        <activity android:name=".presentation.activity.home.Home_Activity" />
+        <activity android:name=".Voice_Chat" />
+        <activity android:name=".Voice_Call" />
+        <activity android:name=".VideoChat" />
+        <activity
+            android:name=".Video_Activity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".Messenger_Activity" />
+        <activity android:name=".Chat_Activity" />
+        <activity android:name=".Video_Call" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

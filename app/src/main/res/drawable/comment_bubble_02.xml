@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="0dp"
+        android:top="27dp"> <!-- How to make this 50% of height? -->
+
+        <rotate
+            android:fromDegrees="-45"
+            android:toDegrees="0"
+            android:pivotX="5%"
+            android:pivotY="0%"> <!-- How to make the triangle more acute? -->
+
+            <shape
+                android:shape="rectangle" >
+
+                <solid
+                    android:color="@color/white"/>
+                <corners android:radius="10dp"/>
+
+            </shape>
+
+        </rotate>
+
+    </item>
+
+    <item
+        android:left="30dp">
+
+        <shape
+            android:shape="rectangle">
+
+            <solid
+                android:color="@color/white"/>
+
+            <corners
+                android:radius="20dp"/>
+
+        </shape>
+
+    </item>
+
+</layer-list>
