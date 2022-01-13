@@ -192,13 +192,13 @@
             app:layout_constraintTop_toBottomOf="@+id/postImageRecView_single_ImagePost">
 
             <ImageView
-                android:id="@+id/fireBtn_ImagePost"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:src="@drawable/fire_figma" />
+                android:paddingLeft="8dp"
+                android:src="@drawable/messenger_right_figma" />
 
             <ImageView
                 android:id="@+id/commentBtn_ImagePost"
@@ -207,15 +207,18 @@
                 android:layout_gravity="center_vertical"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp"
+                android:layout_marginStart="4dp"
                 android:src="@drawable/chat_msg_figma" />
 
             <ImageView
+                android:id="@+id/fireBtn_ImagePost"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:src="@drawable/messenger_right_figma" />
+                android:layout_marginStart="4dp"
+                android:src="@drawable/fire_figma" />
 
             <me.relex.circleindicator.CircleIndicator2
                 android:id="@+id/indicator_imagePost"
